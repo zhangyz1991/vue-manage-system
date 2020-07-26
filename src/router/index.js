@@ -20,6 +20,66 @@ export default new Router({
                     meta: { title: '系统首页' }
                 },
                 {
+                    path: '/scorelist',
+                    component: () => import(/* webpackChunkName: "scorelist" */ '../components/page/ScoreList.vue'),
+                    meta: { title: '成绩列表' }
+                },
+                {
+                    path: '/scoreform',
+                    component: () => import(/* webpackChunkName: "scoreform" */ '../components/page/ScoreForm.vue'),
+                    meta: { title: '成绩表单' }
+                },
+                {
+                    path: '/examlist',
+                    component: () => import(/* webpackChunkName: "examlist" */ '../components/page/ExamList.vue'),
+                    meta: { title: '测试列表' }
+                },
+                {
+                    path: '/examform',
+                    component: () => import(/* webpackChunkName: "examform" */ '../components/page/ExamForm.vue'),
+                    meta: { title: '测试表单' }
+                },
+                {
+                    path: '/courselist',
+                    component: () => import(/* webpackChunkName: "courselist" */ '../components/page/CourseList.vue'),
+                    meta: { title: '科目列表' }
+                },
+                {
+                    path: '/courseform',
+                    component: () => import(/* webpackChunkName: "courseform" */ '../components/page/CourseForm.vue'),
+                    meta: { title: '科目表单' }
+                },
+                {
+                    path: '/userlist',
+                    component: () => import(/* webpackChunkName: "userlist" */ '../components/page/UserList.vue'),
+                    meta: { title: '用户列表' }
+                },
+                {
+                    path: '/userform',
+                    component: () => import(/* webpackChunkName: "userform" */ '../components/page/UserForm.vue'),
+                    meta: { title: '用户表单' }
+                },
+                {
+                    path: '/gradelist',
+                    component: () => import(/* webpackChunkName: "gradelist" */ '../components/page/GradeList.vue'),
+                    meta: { title: '年级列表' }
+                },
+                {
+                    path: '/gradeform',
+                    component: () => import(/* webpackChunkName: "gradeform" */ '../components/page/GradeForm.vue'),
+                    meta: { title: '年级表单' }
+                },
+                {
+                    path: '/classlist',
+                    component: () => import(/* webpackChunkName: "classlist" */ '../components/page/ClassList.vue'),
+                    meta: { title: '班级列表' }
+                },
+                {
+                    path: '/classform',
+                    component: () => import(/* webpackChunkName: "classform" */ '../components/page/ClassForm.vue'),
+                    meta: { title: '班级表单' }
+                },
+                {
                     path: '/icon',
                     component: () => import(/* webpackChunkName: "icon" */ '../components/page/Icon.vue'),
                     meta: { title: '自定义图标' }

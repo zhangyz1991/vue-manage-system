@@ -62,6 +62,96 @@ export default {
                     title: '系统首页'
                 },
                 {
+                    icon: 'el-icon-lx-calendar',
+                    index: 'score',
+                    title: '成绩管理',
+                    subs: [
+                        {
+                            index: 'scorelist',
+                            title: '成绩列表'
+                        },
+                        {
+                            index: 'scoreform',
+                            title: '录入成绩'
+                        }
+                    ]
+                },
+                {
+                    icon: 'el-icon-lx-calendar',
+                    index: 'exam',
+                    title: '测试信息',
+                    subs: [
+                        {
+                            index: 'examlist',
+                            title: '测试列表'
+                        },
+                        {
+                            index: 'examform',
+                            title: '举行测试'
+                        }
+                    ]
+                },
+                {
+                    icon: 'el-icon-lx-calendar',
+                    index: 'course',
+                    title: '科目信息',
+                    subs: [
+                        {
+                            index: 'courselist',
+                            title: '科目列表'
+                        },
+                        {
+                            index: 'courseform',
+                            title: '增设科目'
+                        }
+                    ]
+                },
+                {
+                    icon: 'el-icon-lx-calendar',
+                    index: 'user',
+                    title: '用户信息',
+                    subs: [
+                        {
+                            index: 'userlist',
+                            title: '用户列表'
+                        },
+                        {
+                            index: 'userform',
+                            title: '添加用户'
+                        }
+                    ]
+                },
+                {
+                    icon: 'el-icon-lx-calendar',
+                    index: 'grade',
+                    title: '年级信息',
+                    subs: [
+                        {
+                            index: 'gradelist',
+                            title: '年级列表'
+                        },
+                        {
+                            index: 'gradeform',
+                            title: '增加年级'
+                        }
+                    ]
+                },
+                {
+                    icon: 'el-icon-lx-calendar',
+                    index: 'class',
+                    title: '班级信息',
+                    subs: [
+                        {
+                            index: 'classlist',
+                            title: '班级列表'
+                        },
+                        {
+                            index: 'classform',
+                            title: '增加班级'
+                        }
+                    ]
+                },
+                {
                     icon: 'el-icon-lx-cascades',
                     index: 'table',
                     title: '基础表格'
